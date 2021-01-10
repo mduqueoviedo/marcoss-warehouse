@@ -12,7 +12,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/loading-bay',
     name: 'Loading Bay',
     component: LoadingBay,
-  }
+  },
+  { 
+    path: '/:pathMatch(.*)*', 
+    redirect: '/'
+  },
 ];
 
 const router = createRouter({
