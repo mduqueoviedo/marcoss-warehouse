@@ -1,0 +1,26 @@
+.inventory-list {
+    margin-top: 64px;
+}
+
+.inventory-list-container {
+    display: flex;
+}
+
+.inventory-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid silver;
+    border-radius: 8px;
+    padding: 12px;
+    margin-right: 32px;
+
+    &--empty {
+        background-color: lightsalmon;
+    }
+}
+
+.inventory-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}

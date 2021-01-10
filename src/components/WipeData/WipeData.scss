@@ -1,0 +1,63 @@
+.wipe-data {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.title {
+    text-align: center;
+    color: tomato;
+    font-size: 24px;
+}
+
+.danger-zone {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid tomato;
+    padding-top: 32px;
+    margin-bottom: 16px;
+}
+
+.wipe-button {
+    border: 1px solid tomato;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: tomato;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+       background: gainsboro;
+       font-size: x-large;
+       transition: background 500ms ease-in-out, font-size 500ms ease-in-out; 
+    }
+}
+
+.confirmation-container {
+    margin: 0 auto 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.confirmation-warning {
+    font-style: italic;
+    text-align: center;
+}
+
+.confirmation-dialog-container {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.confirmation-dialog {
+    cursor: pointer;
+    
+    &:first-of-type {
+        margin-right: 16px;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}

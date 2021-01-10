@@ -1,18 +1,22 @@
 # marcoss-warehouse
 
+Minimalistic warehouse management software. 
+
+## Main features
+
+- Load inventory and products from json files.
+- Buy products directly from the web.
+- Reload inventory from the admin view.
+- Local Transparent Persistency
+
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Start the project in a local machine
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
 ### Run your unit tests
@@ -20,10 +24,7 @@ npm run build
 npm run test:unit
 ```
 
-### Lints and fixes files
+### Compiles and minifies for production
 ```
-npm run lint
+npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
