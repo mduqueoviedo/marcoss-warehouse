@@ -2,6 +2,10 @@
 
 Minimalistic warehouse management software. 
 
+### Demo
+
+https://marcoss-warehouse.netlify.app/
+
 ## Main features
 
 - Load inventory and products from json files.
